@@ -1,0 +1,6 @@
+version: "2"
+services:
+  logger-app:
+    image: toumi007/logger-app:v1
+    ports:
+      - "8080:8080"
